@@ -1,14 +1,41 @@
-# Getting Started with Create React App
+# 📰 NewsApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React-based news application that fetches real-time headlines using NewsAPI.
+Users can browse news by category with a smooth infinite scroll experience and a top loading progress indicator.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+-🔍 Real-time news powered by NewsAPI
+-🗂️ Category-based news:
+    -Business
+    -Entertainment
+    -General
+    -Health
+    -Science
+    -Sports
+    -Technology
+-♾️ Infinite scroll (no pagination or next/previous buttons)
+-🚀 Fetches news in batches of 18 articles per API request
+-📊 Top loading progress bar for better UX
+-🎨 Responsive UI using Bootstrap
+-⚛️ Migrating from class-based components to function-based components with Hooks
+-🔐 API key handled via environment variables
 
-### `npm start`
+### Tech Stack
 
-Runs the app in the development mode.\
+-React (Create React App)
+-React Router DOM
+-React Hooks (useState, useEffect, useCallback)
+-Bootstrap
+-NewsAPI
+-react-top-loading-bar component
+-Infinite-Scroll component
+
+## 📜 Available Scripts
+
+### npm start
+
+Runs the app in development mode with hot reload.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -39,32 +66,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧭 Project Status
+-Current (v1.0)
+-Stable class-based React implementation
+-Infinite scroll enabled
+-Production-ready baseline
